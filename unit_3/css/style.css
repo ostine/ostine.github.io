@@ -1,0 +1,61 @@
+body {
+ 
+  background: url("../images/pexels-photo-374897.jpeg");
+  background-size: cover;
+  color: #000;
+  font-family: Helvetica;
+}
+
+.slogan {
+	text-align: center;
+	margin-top: 150px;
+	margin-left: 500px;
+
+}
+.qoute {
+	font-family: Helvetica, Arial, Sans-Serif;
+	font-size: 40px;
+	text-transform: uppercase;
+	font-kerning: 10px;
+	font-style: italic; 
+	color: #7F2838;
+}
+
+.credit {
+	font-family: Helvetica, Arial, Sans-Serif;
+	font-style: italic;
+	color: #7F2838;
+
+
+}
+
+h1 {
+	font-family: Helvetica, Arial, Sans-Serif;
+	font-size: 70px;
+	text-transform: uppercase;
+	font-kerning: 10px 
+
+}
+
+hr {
+ width: 400px;
+ height: 5px;
+ background-color: #DB9370;
+}
+
+p {
+  font-size: 22px;
+
+}
+
+ul {
+	text-align: left;
+	margin-left: 600px;
+
+}
+
+a {
+	color:#7F2838;
+	margin-left: 600px;
+
+}
