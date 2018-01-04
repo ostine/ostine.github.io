@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette|Playfair+Display');
+
+body {
+ 
+  background: url("../images/pexels-photo-374897.jpeg");
+  background-size: cover;
+  color: #000;
+}
+
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 80px;
+	text-transform: uppercase;
+	font-kerning: 10px 
+
+}
+  
+
+hr {
+ width: 500px;
+ height: 5px;
+ background-color: #DB9370;
+}
+
+h3 {
+  font-size: 20px;
+  font-family: 'Playfair Display', serif;
+
+}
+
+ul {
+	font-family: 'Playfair Display', serif;
+	text-align: left;
+	margin-left: 600px;
+
+}
+
+a {
+	font-family: 'Playfair Display', serif;
+	color:#7F2838;
+	margin-left: 600px;
+
+}
+
+
+.slogan {
+	text-align: center;
+	margin-top: 150px;
+	margin-left: 500px;
+
+}
+.qoute {
+	font-family: 'Courgette', cursive;
+	font-size: 3.5em;
+	line-height: 1.5em;
+	color: #7F2838;
+}
+
+.credit {
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	font-size: 2em;
+	color: #7F2838;
+
+}
+
