@@ -33,9 +33,6 @@ h2 {
 	text-align: left;
 }
 
-h2 a {
-
-}
 
 article {
 	padding: 20px; 0;
@@ -65,7 +62,6 @@ aside {
 	float: left;
 	padding: 20px 20px 20px 40px;
     display: block;
-
 }
 
 ul {
@@ -91,7 +87,6 @@ aside a {
 
 aside a:hover {
 	text-decoration: underline;
-
 }
 
 footer {
