@@ -1,0 +1,392 @@
+* {	
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html { 
+	display: block;
+}
+
+body {
+	display: block;
+    /*font-family: 'Crimson Text', serif;*/
+    font-size: 20px;
+    line-height: 1.3em;
+    background-color: #f1f1f1;
+}
+
+
+h1 {
+	font-family: 'Oswald', sans-serif; 
+	font-size: 2.2em;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding: 20px 30px 10px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	clear: both;
+}
+
+h2 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.5em;
+	font-weight: 400;
+	color: #068ca5;
+	padding-bottom: 15px;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+p {
+	font-family: 'Crimson Text', serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	text-align: left;
+	width: 90%;
+
+}
+
+a {
+	text-decoration: none;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1em;
+	color: #068ca5;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0px;
+}
+
+#logo{
+	margin-top: 40px;
+	margin-left: 40px;
+}
+
+
+article {
+	padding-top: 20px;
+	padding-bottom: 55px;
+	padding-left: 40px;
+	margin-top: 15px;
+	display: block;
+	float: left;  
+	width: 70%;
+}
+
+aside {
+	display: block;
+	float: left;
+	width: 30%;
+}
+
+	.sidenav li {
+		float: left;
+		width: 100%;
+	}
+
+	.sidenav a {
+		display: block;
+		padding: 15px;
+		font-size: 1em;
+		color: white;
+		background-color: #0f606f;
+		text-align: center;
+		margin: 1px 0;
+		/*float: right;*/
+	}
+
+	.sidenav a:hover {
+		color: #068ca5;
+	}
+
+footer {
+	display: block;
+	height: 1%;
+	clear: both;
+	background-color: #333333;
+	padding: 10px;
+}
+
+footer a {
+	display: block;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1em;
+	color: #ffffff;
+	width: 100%;
+	padding: 1%;
+	text-align: left;
+}
+
+
+#wrapper {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+#topnav {
+	background-color: #333333;
+}
+
+	#topnav a {
+		display: block;
+		font-family: 'Oswald', sans-serif;
+		font-size: 1em;
+		color: #ffffff;
+		width: 5%;
+		float: left;
+		padding: 10px 0px;
+		text-align: center;
+	}
+
+	#topnav a:hover {
+    	background-color: #404040;
+	}
+
+.banner img {
+	width: 100%;
+}
+
+.mainnav {
+	padding-top: 60px;
+	float: right;
+	}
+
+	.mainnav a {
+		font-family: 'Oswald', sans-serif;
+		color: #333333;
+		margin-left: 20px;
+		margin-right: 10px;
+		text-align: right;
+		font-size: 1.1em;
+		text-transform: uppercase;
+	}
+
+	.mainnav a:hover {
+		color: #068ca5;
+	}
+
+
+	#mobile {
+		display: none;
+	}
+
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+
+/*responsive*/
+
+@media screen and (max-width: 1525px){
+
+	.mainnav {
+		padding-top: 40px;
+		float: right;
+	}
+
+	.mainnav a {
+		font-family: 'Oswald', sans-serif;
+		color: #333333;
+		margin-left: 8px;
+		margin-right: 8px;
+		text-align: right;
+		font-size: 1em;
+		text-transform: uppercase;
+		}
+
+
+	h2 {
+		font-family: 'Oswald', sans-serif;
+		font-size: 2em;
+		font-weight: 400;
+		padding-bottom: 15px;
+		text-transform: uppercase;
+		text-align: left;
+	}
+
+
+	p {
+		font-family: 'Crimson Text', serif;
+		font-size: 1em;
+		line-height: 1.5em;
+		text-align: left;
+	}
+
+
+	h1 {
+		font-family: 'Oswald', sans-serif; 
+		font-size: 2.5em;
+		line-height: 1.3em;
+		font-weight: 400;
+		text-align: left;
+		text-transform: uppercase;
+		margin-bottom: 10px;
+		margin-top: 40px;
+
+	}
+
+	#logo {
+		margin-top: 40px;
+		margin-left: 20px;
+	    width: 30%;
+	}
+}
+
+@media screen and (max-width: 1135px){
+
+	.mainnav {
+		padding-top: 30px;
+		float: left;
+	}
+
+	.mainnav a {
+		display: inline-block;
+		padding: 10px 32px;
+		font-size: 0.9em;
+		color: white;
+		background-color: #0f606f;
+		text-align: center;
+		margin: 1px 0;
+		}
+
+	.mainnav a:hover {
+		background-color: #068ca5;
+		color: white;
+	}
+
+	h2 {
+		font-family: 'Oswald', sans-serif;
+		font-size: 2em;
+		font-weight: 400;
+		padding-bottom: 15px;
+		text-transform: uppercase;
+		text-align: left;
+	}
+
+
+	p {
+		font-family: 'Crimson Text', serif;
+		font-size: 1em;
+		line-height: 1.5em;
+		text-align: left;
+	}
+
+
+	h1 {
+		font-family: 'Oswald', sans-serif; 
+		font-size: 3em;
+		line-height: 1.3em;
+		font-weight: 400;
+		text-align: center;
+		text-transform: uppercase;
+		margin-bottom: 10px;
+		margin-top: 40px;
+		color: #068ca5; 
+	}
+
+	#logo {
+		margin-top: 20px;
+		margin-left: 40px;
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    width: 40%;
+	}
+}
+
+@media screen and (max-width: 1112px){
+
+	.mainnav {
+		float: none;
+		width: auto;
+	}
+
+	.mainnav a {
+		display: block;
+		padding: 15px 40px;
+		font-size: 0.8em;
+		color: white;
+		background-color: #0f606f;
+		text-align: center;
+		margin: 1px 0;
+	}
+
+	.mainnav a:hover {
+		background-color: #068ca5;
+		color: white;
+	}
+}
+
+@media screen and (max-width: 770px){
+
+	#topnav {
+		padding-left: 10px;
+	}
+
+	#topnav a {
+		display: block;
+		font-family: 'Oswald', sans-serif;
+		font-size: 1em;
+		text-align: center;
+		color: #ffffff;
+		width: none;
+		float: left;
+		margin-right: 10px;
+		margin-left: 10px;
+		text-align: center;
+	}
+
+	article {
+		float: none;  
+		width: 100%;
+	}
+
+	aside {
+		display: block;
+		width: 100%;
+	}
+
+	.sidenav li {
+		float: none;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 640px){
+
+	.mainnav {
+		float: none;
+		width: auto;
+	}
+
+	.mainnav a {
+		display: block;
+		padding: 15px 40px;
+		font-size: 0.8em;
+		color: white;
+		background-color: #0f606f;
+		text-align: center;
+		margin: 1px 0;
+		display: none;
+	}
+
+
+	#mobile {
+		display: block;
+	}
+
+	.mainnav:hover a {
+		display: block;
+	}
+}
